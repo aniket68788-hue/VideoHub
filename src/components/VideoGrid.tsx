@@ -8,7 +8,7 @@ export default function VideoGrid() {
       title: "Amazing Nature Documentary: Wildlife in 4K",
       duration: "15:32",
       views: "2.1M views",
-      thumbnail: "https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&w=400",
+      thumbnail: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ubuy.co.in%2Fproduct%2FFGGH3CGFS-adult-film-star-sexy-mia-khalifa-hot-cleavage-4x6-photograph-a5%3Fsrsltid%3DAfmBOooqNTCY8hzfVCZs5jPtvktRkaxg5m0whXGXgwMz-Cj-sQrFd4xy&psig=AOvVaw3aWGqLTNBqfv5KW5Vt5urj&ust=1758827511363000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLjw9KyN8o8DFQAAAAAdAAAAABAE?auto=compress&cs=tinysrgb&w=400",
       channel: "Nature Films",
       uploadTime: "2 days ago"
     },
