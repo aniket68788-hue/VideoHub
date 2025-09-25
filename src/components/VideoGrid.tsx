@@ -21,6 +21,25 @@ export default function VideoGrid() {
       uploadTime: "1 week ago"
     },
     {
+      // 👉 YouTube video instead of image thumbnail
+      title: "YouTube Shorts Test Video",
+      duration: "0:59",
+      views: "120K views",
+      channel: "Test Channel",
+      uploadTime: "1 day ago",
+      embed: (
+        <iframe
+          width="100%"
+          height="200"
+          src="https://www.youtube.com/embed/X5tmtjs_8uo"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      )
+    },
+    {
       title: "Tech Review: Latest Smartphone Features",
       duration: "18:20",
       views: "1.5M views",
@@ -105,9 +124,15 @@ export default function VideoGrid() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-6">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
-        {videos.map((video, index) => (
-          <VideoCard key={index} {...video} />
-        ))}
+        {videos.map((video, index) =>
+          video.embed ? (
+            <div key={index} className="bg-black rounded-lg overflow-hidden">
+              {video.embed}
+            </div>
+          ) : (
+            <VideoCard key={index} {...video} />
+          )
+        )}
       </div>
     </div>
   );
