@@ -16,8 +16,8 @@ export default function VideoGrid() {
       title: "Cooking Masterclass: Italian Pasta Techniques",
       duration: "22:45",
       views: "856K views",
-      thumbnail: "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=400",
-      channel: "Chef's Kitchen",
+      thumbnail: "https://i.ebayimg.com/images/g/IG4AAOSwIytgPsiu/s-l1600.webp?auto=compress&cs=tinysrgb&w=400",
+      channel: "Chef's Kitchen",https://www.youtube.com/shorts/X5tmtjs_8uo
       uploadTime: "1 week ago"
     },
     {
